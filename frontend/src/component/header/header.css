@@ -1,0 +1,114 @@
+
+.header{
+    background-color: rgb(5, 5,70);
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+    
+}
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+}
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.headerListitem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerListitem.active{
+    border: 1px solid white;
+    padding: 10px;
+}
+.headerDesc{
+    margin: 20px 0px;;
+
+}
+.headerButton{
+    border: none;
+    width: 108px;
+    background-color: red;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    
+}
+.headerSearch
+{
+    display: flex;
+    height: 30px;
+    background-color: white;
+    gap: 40px;
+    width: 100%;
+    max-width: 1024px;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border: 3px solid rgb(201, 201, 0);
+    position: absolute;
+   bottom: -25px;
+   
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    /*border-bottom: 2px solid black;*/
+}
+.headerSearchText{
+    color: black;
+    cursor: pointer;
+}
+
+.date{
+    position:absolute;
+    top: 50px;
+    z-index:1;
+}
+.options{
+  
+    top: 50px;
+    position: absolute;
+    background-color:white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+z-index: 1;
+}
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: black;
+}
+.optioncounterbtn{
+    border: 1px solid rgb(5, 5,70);
+    cursor: pointer;
+    
+}
